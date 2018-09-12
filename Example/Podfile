@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'RMBTextField_Example' do
+  pod 'RMBTextField', :path => '../'
+
+  target 'RMBTextField_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
