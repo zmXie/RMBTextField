@@ -1,0 +1,23 @@
+PODS:
+  - Masonry (1.1.0)
+  - RMBTextField (0.1.0):
+    - Masonry
+
+DEPENDENCIES:
+  - RMBTextField (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Masonry
+
+EXTERNAL SOURCES:
+  RMBTextField:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  RMBTextField: d942eb42670af60da09848c3ef5056ecced2de6f
+
+PODFILE CHECKSUM: f37501cc4cadf0c8eb4166644d9c5d6f485fcfe9
+
+COCOAPODS: 1.5.3

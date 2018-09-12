@@ -37,8 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0B5C2255A1A720817BF6B9A7 /* RMBTextField.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = RMBTextField.podspec; path = ../RMBTextField.podspec; sourceTree = "<group>"; };
-		0B7BA199CB1DDDA6DF07FD0F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		0B5C2255A1A720817BF6B9A7 /* RMBTextField.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = RMBTextField.podspec; path = ../RMBTextField.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		0B7BA199CB1DDDA6DF07FD0F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* RMBTextField_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RMBTextField_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -66,7 +66,7 @@
 		99CC6FAD91ECE979805B2EBC /* Pods-RMBTextField_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RMBTextField_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RMBTextField_Tests/Pods-RMBTextField_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		A203060AB65AC18C93DF936D /* Pods_RMBTextField_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RMBTextField_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B98FB448B8FBD84261D2ABE1 /* Pods-RMBTextField_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RMBTextField_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-RMBTextField_Example/Pods-RMBTextField_Example.release.xcconfig"; sourceTree = "<group>"; };
-		E25782EA89EB0E4D22CDB727 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		E25782EA89EB0E4D22CDB727 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -319,10 +319,12 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-RMBTextField_Example/Pods-RMBTextField_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
 				"${BUILT_PRODUCTS_DIR}/RMBTextField/RMBTextField.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RMBTextField.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -1,0 +1,6 @@
+framework module RMBTextField {
+  umbrella header "RMBTextField-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "RMBTextField",
+  "version": "0.1.0",
+  "summary": "带￥输入框",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/zmXie/RMBTextField",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "zmXie": "741937337@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/zmXie/RMBTextField.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "RMBTextField/Classes/**/*",
+  "dependencies": {
+    "Masonry": [
+
+    ]
+  }
+}
